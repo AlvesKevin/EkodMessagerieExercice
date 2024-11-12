@@ -1,0 +1,15 @@
+{
+  "name": "terminal-chat",
+  "version": "1.0.0",
+  "main": "src/server/server.js",
+  "dependencies": {
+    "ws": "^8.x.x",
+    "winston": "^3.x.x",
+    "uuid": "^9.x.x",
+    "chalk": "^4.x.x"
+  },
+  "scripts": {
+    "start": "node src/server/server.js",
+    "client": "node src/client/client.js"
+  }
+}
