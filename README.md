@@ -46,26 +46,24 @@ Une application de messagerie instantanée en ligne de commande, permettant aux 
 
 - `/convs` - Afficher la liste de vos conversations
 - `/conv <username>` - Démarrer ou rejoindre une conversation
-- `/msg <username> <message>` - Envoyer un message privé
-- `/users` - Afficher la liste des utilisateurs en ligne
 - `/exit` - Quitter la conversation actuelle
 - `/quit` - Quitter l'application
-- `/help` - Afficher l'aide
 
 ## 🏗️ Structure du projet
+```
 src/
 ├── client/
-│ ├── client.js # Client principal
-│ ├── commands.js # Gestionnaire de commandes
-│ └── ui.js # Interface utilisateur
+│   ├── client.js     # Client principal
+│   ├── commands.js   # Gestionnaire de commandes
+│   └── ui.js         # Interface utilisateur
 ├── server/
-│ ├── server.js # Serveur WebSocket
-│ ├── websocket.js # Gestionnaire WebSocket
-│ └── sessionManager.js # Gestion des sessions
+│   ├── server.js     # Serveur WebSocket
+│   ├── websocket.js  # Gestionnaire WebSocket
+│   └── sessionManager.js # Gestion des sessions
 └── utils/
-├── errors.js # Classes d'erreurs
-└── logger.js # Configuration des logs
-
+    ├── errors.js     # Classes d'erreurs
+    └── logger.js     # Configuration des logs
+```
 
 ## 🔧 Technologies utilisées
 
